@@ -24,7 +24,7 @@ async function sendMessage() {
       const response = await fetch('https://api-inference.huggingface.co/models/facebook/blenderbot-400M-distill', {
         method: 'POST',
         headers: {
-          'Authorization': 'Bearer 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',  // Your actual access token
+          'Authorization': 'Bearer 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',  // Your actual access token
           'Content-Type': 'application/json'
         },
         body: JSON.stringify({
